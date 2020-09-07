@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/complement.css">
+    <title>Mega Laudo - Serviços</title>
+  </head>
+  <body onload="conect('services')">
+    <div class="main">
+      <div class="container">
+        <br>
+          <h2>Registros</h2>
+          <!--Talvez esconder esse botão sempre que o sessionStorage estiver vazio-->
+          <!--<button type="button" onclick="location.reload()">Atualizar</button>-->
+          <table id="registros">
+          </table>
+      </div>
+    </div>
+    <script>
+      //var tableParameters = {"tabela": 'registros'};
+      /*
+      if(sessionStorage.getItem('GoTo')){
+        conect(sessionStorage.getItem('GoTo'))
+      }*/
+    </script>
+  </body>
+</html>
